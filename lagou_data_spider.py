@@ -3,7 +3,7 @@
 """
 Created on Sat Jun 16 17:16:26 2018
 
-@author: ruicheng
+@author: little-frog
 """
 import time
 import json
@@ -14,10 +14,10 @@ from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.support.wait import WebDriverWait
 from pyquery import PyQuery as pq
 
-path = '/Users/ruicheng/chromedriver01/chromedriver'
+path = 'chromedriver'
 KEYWORD = '数据分析'
 CITY = '上海'
-path_save = '/Users/ruicheng/Documents/上海师范研究生/python相关/爬虫/拉勾网爬虫/数据分析_上海.txt'
+path_save = '数据分析_上海.txt'
 browser = webdriver.Chrome(path)
 wait = WebDriverWait(browser,10)
 
